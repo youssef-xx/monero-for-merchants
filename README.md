@@ -4,6 +4,69 @@
 
 ---
 
+## 📄 Monero Merchant Quickstart (1 Page)
+
+### **1. Install a Wallet**
+
+* Monerujo (Android)
+* Cake Wallet (iOS/Android)
+
+### **2. Back Up Your Wallet**
+
+* Write down your 25-word recovery phrase on paper
+* Store it somewhere safe (not on your phone)
+
+### **3. Accept a Payment**
+
+1. Open wallet
+2. Tap **Receive**
+3. Show the QR code to the customer
+4. Customer scans & sends XMR
+5. Wait ~20 seconds for **1 confirmation**
+
+### **4. Track Sales (Optional)**
+
+* Create a subaddress for each order or day
+* Helps with accounting & organization
+
+### **5. Move Funds to Savings**
+
+* Keep large balances in a cold wallet (Feather or Monero GUI)
+* Only keep spending money in your mobile wallet
+
+---
+
+## **Simple Payment Flow Diagram**
+
+```
+Customer → scans QR → sends XMR
+                     ↓
+Merchant wallet detects payment → shows confirmation
+                     ↓
+              Order completed
+```
+
+---
+
+## **Beginner Mode vs Advanced Mode**
+
+### **Beginner Mode (Most Shops)**
+
+* ✔ Use a mobile wallet
+* ✔ Show a QR code
+* ✔ Accept payment after 1 confirmation
+* ✔ No integration needed
+* ✔ Fastest way to accept Monero
+
+### **Advanced Mode (E-commerce / Tech-Savvy Users)**
+
+* ✔ Use subaddresses for each order
+* ✔ Automate payment detection
+* ✔ Use monero-wallet-rpc
+* ✔ Integrate with checkout pages
+
+---
+
 ## 1. Introduction
 
 ### Quick Merchant Checklist (Fast Start)
@@ -11,7 +74,7 @@
 If you don't want to read everything, start here:
 
 * [ ] Install a Monero wallet (Monerujo or Cake Wallet)
-* [ ] Write down your 25-word recovery phrase on paper
+* [ ] Write down your 25‑word recovery phrase on paper
 * [ ] Open **Receive** → show QR code to customers
 * [ ] Optional: Create subaddresses to track payments
 * [ ] Accept payment → wait for 1 confirmation (~20 sec)
