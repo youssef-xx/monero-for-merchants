@@ -6,6 +6,19 @@
 
 ## 1. Introduction
 
+### Quick Merchant Checklist (Fast Start)
+
+If you don't want to read everything, start here:
+
+* [ ] Install a Monero wallet (Monerujo or Cake Wallet)
+* [ ] Write down your 25-word recovery phrase on paper
+* [ ] Open **Receive** → show QR code to customers
+* [ ] Optional: Create subaddresses to track payments
+* [ ] Accept payment → wait for 1 confirmation (~20 sec)
+* [ ] Move larger earnings to a cold wallet
+* [ ] Save this guide for later (security tips & advanced tools)
+
+This checklist will appear again at the end for quick reference.
 Monero (XMR) is a digital cash system built for privacy, security, and true financial independence. Unlike most cryptocurrencies, Monero payments are private by default, extremely low-fee, and ideal for real-world commerce.
 
 ### **Why merchants use Monero:**
