@@ -1,0 +1,2 @@
+Contributions, edits, and corrections are welcome.
+Please open an issue or submit a pull request.
