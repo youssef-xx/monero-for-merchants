@@ -1,6 +1,6 @@
-# Monero for Merchants: A Simple Getting-Started Guide
+# Monero for Merchants: A Practical Guide for Real‑World Businesses: A Simple Getting-Started Guide
 
-*A practical guide for shop owners, freelancers, and small businesses who want to accept private, fast, borderless payments using Monero (XMR). No technical background required.*
+*Clear, friendly, and structured documentation for merchants, freelancers, and businesses who want to accept Monero (XMR) quickly and safely — without needing technical knowledge.*
 
 ---
 
