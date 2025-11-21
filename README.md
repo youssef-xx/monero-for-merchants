@@ -292,7 +292,10 @@ Coming soon:
 * A Merchant POS template
 * Expanded documentation
 
-If you want to contribute, improve the guide, or request features, join the Monero community or contact the maintainers of this project.
+## Contributing
+Corrections, improvements, examples, and translations are welcome.
+Feel free to open an issue or submit a pull request.
+
 
 ---
 
