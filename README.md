@@ -213,9 +213,7 @@ Monero is used globally, especially in regions with unstable banking.
 
 Coming soon:
 
-* A Monero Payment Button Generator
 * A Merchant POS template
-* Developer starter kits (Python & Flask)
 * Expanded documentation
 
 If you want to contribute, improve the guide, or request features, join the Monero community or contact the maintainers of this project.
