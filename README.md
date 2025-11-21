@@ -289,13 +289,25 @@ Monero is used globally, especially in regions with unstable banking.
 
 Coming soon:
 
-* A Merchant POS template
+### Monero POS Template (Simple HTML)
+
+A small, browser-based point-of-sale screen for shops.
+- No server, no backend
+- Enter amount → show QR → customer pays
+- Merchant can save their address locally in the browser
+
+You can open it directly from the repo:
+- Download `pos/monero-pos.html`
+- Open it in any modern browser
+- Keep it open at your counter on a tablet or phone
+
 * Expanded documentation
+
+---
 
 ## Contributing
 Corrections, improvements, examples, and translations are welcome.
 Feel free to open an issue or submit a pull request.
-
 
 ---
 
