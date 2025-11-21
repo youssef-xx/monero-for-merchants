@@ -1,4 +1,4 @@
-# Monero for Merchants: A Practical Guide for Real‑World Businesses: A Simple Getting-Started Guide
+# Monero for Merchants: A Practical Guide for Real‑World Businesses
 
 *Clear, friendly, and structured documentation for merchants, freelancers, and businesses who want to accept Monero (XMR) quickly and safely — without needing technical knowledge.*
 
@@ -18,8 +18,7 @@ If you don't want to read everything, start here:
 * [ ] Move larger earnings to a cold wallet
 * [ ] Save this guide for later (security tips & advanced tools)
 
-This checklist will appear again at the end for quick reference.
-Monero (XMR) is a digital cash system built for privacy, security, and true financial independence. Unlike most cryptocurrencies, Monero payments are private by default, extremely low-fee, and ideal for real-world commerce.
+Monero (XMR) is a digital cash system built for privacy, security, and true financial independence. Unlike most cryptocurrencies, Monero payments are private by default, extremely low‑fee, and ideal for real‑world commerce.
 
 ### **Why merchants use Monero:**
 
@@ -30,7 +29,7 @@ Monero (XMR) is a digital cash system built for privacy, security, and true fina
 * **Simple UX:** Customers just scan a QR code.
 * **Works even where traditional banking fails:** Ideal for regions with unstable financial infrastructure.
 
-This guide is written **for non-technical merchants**, small businesses, and freelancers who want to accept Monero easily and safely.
+This guide is written **for non‑technical merchants**, small businesses, and freelancers who want to accept Monero easily and safely.
 
 ---
 
@@ -69,7 +68,7 @@ If you need more control and bookkeeping:
 
 These allow:
 
-* View-only wallets for accountants
+* View‑only wallets for accountants
 * Creating many subaddresses for tracking payments
 * Easier cold storage management
 
@@ -145,7 +144,7 @@ No. Mobile wallets connect to remote nodes.
 
 ### **What are the fees?**
 
-Usually tiny—fractions of a cent.
+Usually tiny — fractions of a cent.
 
 ### **Can I accept Monero without a website?**
 
@@ -185,4 +184,4 @@ If you want to contribute, improve the guide, or request features, join the Mone
 
 ---
 
-*This guide will continue to grow — thanks for helping build real-world Monero adoption!*
+*This guide will continue to grow — thanks for helping build real‑world Monero adoption!*
