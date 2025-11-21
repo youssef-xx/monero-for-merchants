@@ -125,51 +125,7 @@ For businesses that want automation or website checkout.
 
 ### **Option A — Simple “Pay with Monero” Button**
 
-A static payment button can be embedded on any website. When clicked, it opens the customer’s Monero wallet with a pre-filled payment request.
-
-Below is a simple template merchants or developers can use immediately.
-
-#### **Static Payment Button (Copy-Paste Template)**
-
-```html
-<!-- Simple Pay with Monero button -->
-<a href="monero:YOUR_MONERO_ADDRESS?tx_amount=0.0&tx_description=Order" 
-   style="display:inline-block;padding:10px 16px;border-radius:8px;background:#ff6600;color:white;
-          font-weight:600;font-family:Arial, sans-serif;text-decoration:none;">
-  Pay with Monero
-</a>
-```
-
-**How to use it:**
-
-1. Replace `YOUR_MONERO_ADDRESS` with your real Monero receiving address.
-2. (Optional) Set a fixed amount by editing `tx_amount=`
-3. (Optional) Change `tx_description=` to a product or invoice name.
-4. Paste this snippet into any webpage (HTML) — no backend required.
-
-**Result:** Customers click the button → their wallet opens → they send XMR.
-
-#### **Dynamic Amount Button (Customer Enters Amount)**
-
-```html
-<label>Enter amount (XMR): <input id="xmrAmt" type="number" step="0.0001"></label>
-<button onclick="payMonero()" 
-        style="padding:10px 16px;border-radius:8px;background:#ff6600;color:white;font-weight:600;">
-  Pay with Monero
-</button>
-<script>
-function payMonero() {
-  var amt = document.getElementById('xmrAmt').value;
-  var addr = 'YOUR_MONERO_ADDRESS';
-  var uri = 'monero:' + addr + '?tx_amount=' + encodeURIComponent(amt);
-  window.location.href = uri;
-}
-</script>
-```
-
-This version allows the customer to type their own amount.
-
----
+A static “Pay with Monero” button can be placed on a website. This is an optional feature for online stores. The focus of this guide remains non-technical, so merchants who need website integration should contact their develope
 
 ## 5. Tools & Starter Kits
 
@@ -246,6 +202,9 @@ Monero is used globally, especially in regions with unstable banking.
 
 Coming soon:
 
+* A Monero Payment Button Generator
+* A Merchant POS template
+* Developer starter kits (Python & Flask)
 * Expanded documentation
 
 If you want to contribute, improve the guide, or request features, join the Monero community or contact the maintainers of this project.
