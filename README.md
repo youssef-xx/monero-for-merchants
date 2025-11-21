@@ -4,69 +4,6 @@
 
 ---
 
-## 📄 Monero Merchant Quickstart (1 Page)
-
-### **1. Install a Wallet**
-
-* Monerujo (Android)
-* Cake Wallet (iOS/Android)
-
-### **2. Back Up Your Wallet**
-
-* Write down your 25-word recovery phrase on paper
-* Store it somewhere safe (not on your phone)
-
-### **3. Accept a Payment**
-
-1. Open wallet
-2. Tap **Receive**
-3. Show the QR code to the customer
-4. Customer scans & sends XMR
-5. Wait ~20 seconds for **1 confirmation**
-
-### **4. Track Sales (Optional)**
-
-* Create a subaddress for each order or day
-* Helps with accounting & organization
-
-### **5. Move Funds to Savings**
-
-* Keep large balances in a cold wallet (Feather or Monero GUI)
-* Only keep spending money in your mobile wallet
-
----
-
-## **Simple Payment Flow Diagram**
-
-```
-Customer → scans QR → sends XMR
-                     ↓
-Merchant wallet detects payment → shows confirmation
-                     ↓
-              Order completed
-```
-
----
-
-## **Beginner Mode vs Advanced Mode**
-
-### **Beginner Mode (Most Shops)**
-
-* ✔ Use a mobile wallet
-* ✔ Show a QR code
-* ✔ Accept payment after 1 confirmation
-* ✔ No integration needed
-* ✔ Fastest way to accept Monero
-
-### **Advanced Mode (E-commerce / Tech-Savvy Users)**
-
-* ✔ Use subaddresses for each order
-* ✔ Automate payment detection
-* ✔ Use monero-wallet-rpc
-* ✔ Integrate with checkout pages
-
----
-
 ## 1. Introduction
 
 ### Quick Merchant Checklist (Fast Start)
@@ -188,29 +125,49 @@ For businesses that want automation or website checkout.
 
 ### **Option A — Simple “Pay with Monero” Button**
 
-You can embed a static payment button on your site.
-It opens a QR code for customers to pay easily.
+A static payment button can be embedded on any website. When clicked, it opens the customer’s Monero wallet with a pre-filled payment request.
 
-(This guide will later include a payment‑button generator.)
+Below is a simple template merchants or developers can use immediately.
 
-### **Option B — Payment Request Page**
+#### **Static Payment Button (Copy-Paste Template)**
 
-Ideal for online stores.
+```html
+<!-- Simple Pay with Monero button -->
+<a href="monero:YOUR_MONERO_ADDRESS?tx_amount=0.0&tx_description=Order" 
+   style="display:inline-block;padding:10px 16px;border-radius:8px;background:#ff6600;color:white;
+          font-weight:600;font-family:Arial, sans-serif;text-decoration:none;">
+  Pay with Monero
+</a>
+```
 
-* Customer opens a dedicated page.
-* A **unique subaddress** is created for their order.
-* Your business can detect payment automatically.
+**How to use it:**
 
-### **Option C — Full Wallet RPC Integration**
+1. Replace `YOUR_MONERO_ADDRESS` with your real Monero receiving address.
+2. (Optional) Set a fixed amount by editing `tx_amount=`
+3. (Optional) Change `tx_description=` to a product or invoice name.
+4. Paste this snippet into any webpage (HTML) — no backend required.
 
-For developers or larger operations.
-This allows you to:
+**Result:** Customers click the button → their wallet opens → they send XMR.
 
-* Create subaddresses programmatically
-* Detect payments automatically
-* Update orders
+#### **Dynamic Amount Button (Customer Enters Amount)**
 
-This guide will include beginner‑friendly explanations and starter templates.
+```html
+<label>Enter amount (XMR): <input id="xmrAmt" type="number" step="0.0001"></label>
+<button onclick="payMonero()" 
+        style="padding:10px 16px;border-radius:8px;background:#ff6600;color:white;font-weight:600;">
+  Pay with Monero
+</button>
+<script>
+function payMonero() {
+  var amt = document.getElementById('xmrAmt').value;
+  var addr = 'YOUR_MONERO_ADDRESS';
+  var uri = 'monero:' + addr + '?tx_amount=' + encodeURIComponent(amt);
+  window.location.href = uri;
+}
+</script>
+```
+
+This version allows the customer to type their own amount.
 
 ---
 
@@ -289,25 +246,9 @@ Monero is used globally, especially in regions with unstable banking.
 
 Coming soon:
 
-### Monero POS Template (Simple HTML)
-
-A small, browser-based point-of-sale screen for shops.
-- No server, no backend
-- Enter amount → show QR → customer pays
-- Merchant can save their address locally in the browser
-
-You can open it directly from the repo:
-- Download `pos/monero-pos.html`
-- Open it in any modern browser
-- Keep it open at your counter on a tablet or phone
-
 * Expanded documentation
 
----
-
-## Contributing
-Corrections, improvements, examples, and translations are welcome.
-Feel free to open an issue or submit a pull request.
+If you want to contribute, improve the guide, or request features, join the Monero community or contact the maintainers of this project.
 
 ---
 
