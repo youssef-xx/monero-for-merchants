@@ -119,30 +119,7 @@ For long‑term savings:
 
 ---
 
-## 4. Accepting Payments (Advanced Merchant Options)
-
-For businesses that want automation or website checkout.
-
-### **Option A — Simple “Pay with Monero” Button**
-
-A static “Pay with Monero” button can be placed on a website. This is an optional feature for online stores. The focus of this guide remains non-technical, so merchants who need website integration should contact their develope
-
-## 5. Tools & Starter Kits
-
-This guide will grow to include:
-
-* QR/Payment button generator
-* Python starter kit
-* Flask integration template
-* HTML donation page template
-* Monero RPC cheat sheet
-* Minimal POS scripts
-
-All designed to be simple, safe, and easy to maintain.
-
----
-
-## 6. Security Best Practices for Merchants
+## 4. Security Best Practices for Merchants
 
 Keep your business and customers safe with these simple rules:
 
@@ -156,7 +133,7 @@ Keep your business and customers safe with these simple rules:
 
 ---
 
-## 7. Frequently Asked Questions
+## 5. Frequently Asked Questions
 
 ### **How do I issue a refund?**
 
@@ -184,7 +161,7 @@ You may use P2P platforms or crypto exchanges depending on your local laws.
 
 ---
 
-## 8. Real‑World Use Cases
+## 6. Real‑World Use Cases
 
 * Coffee shops and restaurants
 * Barbers and salons
@@ -198,7 +175,7 @@ Monero is used globally, especially in regions with unstable banking.
 
 ---
 
-## 9. Next Steps
+## 7. Next Steps
 
 Coming soon:
 
